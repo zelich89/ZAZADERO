@@ -13,8 +13,8 @@
   border: 3px solid darkblue;
   flex-grow: 1;
 }*/
-.h-400 {
-  height: 400px;
+.h-250 {
+  height: 250px;
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -61,5 +61,27 @@ body {
   width: 12px;
   height: 12px;
   background-color: #4a4a4a;
+  cursor: pointer;
   border-radius: 50%;
+  &.active {
+    background-color: #8e8e93;
+  }
+}
+
+.icon {
+  border-radius: 5px;
+}
+
+.soc-text {
+  left: 75px;
+  bottom: 10px;
+}
+
+.mysect-1 {
+  height: 30%;
+}
+
+.pic {
+  width: 100%;
+  object-fit: cover;
 }

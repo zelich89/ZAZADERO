@@ -17,3 +17,12 @@ body {
     }
   }
 }
+
+.link-text-white {
+  color: white !important;
+  &:focus, &:active, &:visited {color: inherit}
+  &:hover{
+    color: floralwhite !important;
+    //color: darken($dark, 20%) !important;
+  }
+}

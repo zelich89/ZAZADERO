@@ -1,4 +1,4 @@
-//@import "bs/variables";
+@import "bs/variables";
 @import "site/style";
 @import "site/variables";
 @import "site/backgrounds";
@@ -7,7 +7,10 @@
 @import "site/links";
 @import "site/sizes";
 @import "site/spacings";
+@import "site/svgs";
 @import "site/z-index";
 @import "site/effects";
 
 @import "site/temp-bs";
+
+//@import "../node_modules/bootstrap/scss/bootstrap";

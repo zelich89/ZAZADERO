@@ -1,9 +1,7 @@
 // <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-
-
-
 body {
   font: 14px/21px 'Open Sans', sans-serif;
+  color: white;
 }
 /*
 font-family: 'Dancing Script', cursive;
@@ -12,20 +10,23 @@ font-family: 'Dancing Script', cursive;
 */
 
 .h2 {
-  font-size: 24px;
-  line-height: 24px;
-/*  @include media-breakpoint-up(sm) {
+  font-size: 12px;
+  line-height: 12px;
+  @include media-breakpoint-up(sm) {
   }
   @include media-breakpoint-up(md) {
   }
   @include media-breakpoint-up(xl) {
-  }*/
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 .h3 {
-  font-size: 16px;
+  font-size: 10px;
+  @include media-breakpoint-up(xl) {
+    font-size: 16px;
+  }
 }
-
-
 
 // text-uppercase text-truncate font-weight-light
