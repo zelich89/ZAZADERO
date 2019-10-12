@@ -1,5 +1,8 @@
 body {
   background-color: rebeccapurple;
+  @media (min-width: 1199px) {
+    background-color: greenyellow;
+  }
 }
 
 .bg-dark {
@@ -12,7 +15,7 @@ body {
 
 .bg-danger {
   background-color: $danger;
-}
+ }
 
 .bg-aq {
   background-color: mediumaquamarine;
