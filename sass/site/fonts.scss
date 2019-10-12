@@ -29,4 +29,11 @@ font-family: 'Dancing Script', cursive;
   }
 }
 
+.bold {
+  @extend .font-weight-bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
 // text-uppercase text-truncate font-weight-light

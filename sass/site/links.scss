@@ -1,8 +1,10 @@
 body {
   a {
     color: white;
+    text-decoration: none;
     &:hover, &:focus, &:active, &:visited {
       color: white;
+      text-decoration: none;
     }
   }
 }
