@@ -52,8 +52,8 @@ body {
 .sect-1 {
   min-width: 310px;
   max-width: 400px;
-  @media (max-width: 1199px) {
-    /*position: absolute;*/
+  @media (min-width: 1199px) {
+    position: absolute;
   }
 }
 
