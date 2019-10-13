@@ -1,6 +1,9 @@
-$(".js-burger").click(function() {
-    $(".js-sect-1").toggleClass("main-nav_open");
-    $(this).toggleClass("js-burger_active");
+$(".js-main-nav-open-btn").click(function() {
+    $(".js-main-nav").toggleClass("main-nav_open");
+    $(this).toggleClass("main-nav-open-btn_active");
     $(".js-layer").toggleClass("js-layer-active");
-    $('.sect-1').toggleClass('active');
+    $('.main-nav').toggleClass('active');
+    $('.main-text-dark').toggleClass('active');
 });
+
+
