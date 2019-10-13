@@ -1,12 +1,14 @@
 .sect-1 {
+  position: absolute;
   .close, .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
     display: none;
   }
   @media (min-width: 1199px) {
-    /*.close,*/ .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
+    position: relative;
+    .close, .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
       display: block;
     }
-    /*.burger,*/ .menu .menu-icon, .news .news-icon, .media .media-icon, .view .view-icon {
+    .burger, .menu .menu-icon, .news .news-icon, .media .media-icon, .view .view-icon {
       display: none;
     }
     //position: absolute;
@@ -14,12 +16,5 @@
 }
 
 .sect-1 {
-   &.active {
-     .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
-       display: block;
-     }
-     .menu .menu-icon, .news .news-icon, .media .media-icon, .view .view-icon {
-       display: none;
-     }
-   }
+
 }
