@@ -1,8 +1,12 @@
-body {
+/*body {
   background-color: rebeccapurple;
   @media (min-width: 1199px) {
     background-color: greenyellow;
   }
+}*/
+
+.bg-light {
+  background-color: $light;
 }
 
 .bg-dark {
@@ -19,4 +23,8 @@ body {
 
 .bg-aq {
   background-color: mediumaquamarine;
+}
+
+.bg-red {
+  background-color: #fc3d39;
 }

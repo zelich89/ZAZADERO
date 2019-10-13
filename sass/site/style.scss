@@ -13,8 +13,8 @@
   border: 3px solid darkblue;
   flex-grow: 1;
 }*/
-.h-200 {
-  height: 200px;
+.h-240 {
+  height: 240px;
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -25,8 +25,6 @@
 }
 
 body {
-  background-color: rebeccapurple;
-  color: white;
 }
 
 .pos-rel {
@@ -50,11 +48,17 @@ body {
 }
 
 .sect-1 {
-  min-width: 310px;
-  max-width: 400px;
+  max-width: 120px;
+
   @media (min-width: 1199px) {
-    position: absolute;
+    //position: absolute;
+    max-width: 400px;
   }
+  transition: max-width .7s ease;
+}
+
+.carousel-text {
+  height: 100px;
 }
 
 .sect-2 {
@@ -117,4 +121,38 @@ body {
 
 .work {
   border: 1px solid #fff;
+}
+
+.view-hole {
+  width: 128px;
+  height: 128px;
+
+  position: relative;
+}
+
+.view-item {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000;
+  cursor: default;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: '';
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    cursor: pointer;
+  }
+}
+
+.burger {
+  top: 20px;
+  left: 0;
+}
+
+.close {
+  top: 20px;
+  right: 10%;
 }
