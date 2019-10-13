@@ -27,6 +27,19 @@
                       id="Fill-1" fill="currentColor" stroke="none"/>
             </g>
         </symbol>
+        <symbol viewBox="0 0 38 38" id="icon-close">
+            <g id="close" clip-path="url(#mask_1)">
+                <path d="M0 0L0 3.36364L49.1765 3.36364L49.1765 0L0 0Z" transform="matrix(0.7071068 -0.7071068 0.7071068 0.7071068 0 34.77307)" id="Rectangle-49" fill="currentColor" stroke="none" />
+                <path d="M0 0L0 3.36364L49.1765 3.36364L49.1765 0L0 0Z" transform="matrix(-0.7071067 -0.7071068 -0.7071068 0.7071067 37.15149 34.77307)" id="Rectangle-50" fill="currentColor" stroke="none" />
+            </g>
+        </symbol>
+        <symbol viewBox="0 0 47 36" id="icon-burger">
+            <g id="burger">
+                <path d="M0 0L0 8L46.9199 8L46.9199 0L0 0Z" id="Rectangle-60" fill="currentColor" stroke="none" />
+                <path d="M0 0L0 8L46.9199 8L46.9199 0L0 0Z" transform="translate(0 14)" id="Rectangle-58" fill="currentColor" stroke="none" />
+                <path d="M0 0L0 8L46.9199 8L46.9199 0L0 0Z" transform="translate(0 28)" id="Path" fill="currentColor" stroke="none" />
+            </g>
+        </symbol>
     </svg>
     <link rel="stylesheet" href="sass/site/temp-bs.scss">
 </head>
@@ -36,11 +49,21 @@
     <div class="sect sect-1 js-sect-1 d-flex flex-column pos-rel">
 
         <div class="burger js-burger pos-abs pl-30 pl-xl-115">
-            <img src="images/burger.png" alt="">
+<!--            <img src="images/burger.png" alt="">-->
+            <a href="#" class="link-text-dark text-dark">
+                <svg>
+                    <use xlink:href="#burger"/>
+                </svg>
+            </a>
         </div>
 
-        <div class="close js-close pos-abs pl-30 pl-xl-115">
-            <img src="images/close_menu.png" alt="">
+        <div class="close js-close pos-abs">
+<!--            <img src="images/close_menu.png" alt="">-->
+                <a href="#" class="link-text-dark text-light">
+                    <svg>
+                        <use xlink:href="#close"/>
+                    </svg>
+                </a>
         </div>
 
         <div class="logo-block bg-dark pt-80 pl-30 pl-xl-115 pb-30">

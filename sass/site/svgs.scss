@@ -9,3 +9,27 @@
   }
 }
 */
+
+
+.close {
+  width: $close;
+  height: $close;
+  svg {
+    width: $close;
+    height: $close;
+  }
+}
+
+.burger {
+  width: $burger-w;
+  height: $burger-h;
+  svg {
+    width: $burger-w;
+    height: $burger-h
+  }
+}
+
+.fours svg {
+  width: $mail;
+  height: $mail;
+}
