@@ -1,3 +1,4 @@
+/*
 .places-img {
   position: relative;
   &:before {
@@ -32,4 +33,55 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+*/
+
+.places-img {
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .15);
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(252, 61, 57, 1);
+    opacity: 0;
+    transition: opacity .2s ease;
+  }
+  &:hover:after {
+    opacity: 0.5;
+  }
+  &:hover .img-title {
+    transform: translate(-30%, -30%);
+  }
+  &:hover .img-border {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+
+  &.place-hover:after {
+    opacity: 0.5;
+  }
+  &.place-hover .img-title {
+    transform: translate(-30%, -30%);
+  }
+  &.place-hover .img-border {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+
 }

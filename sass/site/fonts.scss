@@ -1,7 +1,14 @@
 // <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
 body {
-  font: 14px/21px 'Open Sans', sans-serif;
-
+  font: 10px/15px 'Open Sans', sans-serif;
+  @include media-breakpoint-up(md) {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 14px;
+    line-height: 21px;
+  }
   color: white;
 }
 /*
