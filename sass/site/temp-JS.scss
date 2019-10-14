@@ -40,7 +40,6 @@ $width: 200px;
   flex-direction: column;
   background-color: #2f3d4c;
   transition: transform 2s ease;
-
   z-index: 3;
   &.active {
     transform: translateX(0);
