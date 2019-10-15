@@ -1,29 +1,85 @@
 .sect-1 {
-  //position: absolute;
-  position: relative;
+  position: absolute;
+  @include media-breakpoint-up(xl) {
+    position: relative;
+  }
   //opacity: 0;
   z-index: 2;
-  max-width: 120px;
-  @media (min-width: 1199px) {
+  max-width: 400px;
+  transition: all .7s ease;
+  .close, .content, .soc-text {
+    display: none;
+  }
+/*  @media (min-width: 1199px) {
     //position: absolute;
     max-width: 400px;
   }
-  transition: max-width .7s ease;
-  .close, .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
-    display: none;
-  }
   @media (min-width: 1199px) {
-    .close, .menu .content, .news .content, .media .content, .view .content, .soc-footer .soc-text {
+    .close, .content, .soc-footer .soc-text {
       display: block;
     }
-    /*.burger,*/ .menu .menu-icon, .menu .menu-icon1, .news .news-icon, .media .media-icon, .view .view-icon {
+    !*.burger,*! .menu-icon, .news-icon, .media-icon, .view-icon {
       display: none;
     }
-    //position: absolute;
-  }
+  }*/
+}
+
+.burger {
+  transform: translateX(30px);
+  transition: all .7s ease;
+}
+
+.padding-menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 30px;
+  transition: padding-left .7s ease;
+/*  @include media-breakpoint-up(xl){
+    padding-left: 115px;
+  }*/
+}
+
+.news {
+  height: 247px;
+}
+
+.media {
+  height: 422px;
+}
+
+.view {
+  height: 254px;
 }
 
 
-.sect-1 {
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+.sect-1.active .content{
+  display: block;
+}
+
+.sect-1.active .icons {
+  display: none;
+}
+
+.sect-1.active .padding-menu {
+  padding-left: 130px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sect-1.active .burger {
+  transform: translateX(130px);
+}
+
+.soc-text {
+  @include media-breakpoint-up(xl) {
+    display: block;
+  }
+}
+.soc-content {
+  @include media-breakpoint-up(xl) {
+    display: block;
+  }
 }

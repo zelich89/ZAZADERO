@@ -12,8 +12,6 @@
 
 
 .close {
-  width: $close;
-  height: $close;
   svg {
     width: $close;
     height: $close;
@@ -21,20 +19,13 @@
 }
 
 .burger {
-  width: $burger-w;
-  height: $burger-h;
   svg {
     width: $burger-w;
     height: $burger-h
   }
 }
 
-.fours svg {
-  width: $mail;
-  height: $mail;
-}
-
-.menu-icon, .news-icon, .media-icon, .view-icon {
+.icons {
   width: 48px;
   height: 32px;
   svg {
@@ -43,7 +34,7 @@
   }
 }
 
-.like-part, .share-part {
+.follow {
   width: 16px;
   height: 16px;
   svg {
@@ -53,10 +44,11 @@
 }
 
 .soc-icon {
-  width: $soc-icon-size;
-  height: $soc-icon-size;
   svg {
     width: $soc-icon-size;
     height: $soc-icon-size;
   }
 }
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////

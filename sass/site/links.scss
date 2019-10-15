@@ -20,11 +20,16 @@ body {
   }
 }
 
+.menu-item:hover {
+  background-color: #8e8e93;
+}
+
 .link-text-white {
   color: white !important;
   &:focus, &:active, &:visited {color: inherit}
   &:hover{
     color: floralwhite !important;
+    background-color: #8e8e93;
     //color: darken($dark, 20%) !important;
   }
 }

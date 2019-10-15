@@ -1,20 +1,4 @@
-.temp-btn {
-  position: absolute;
-  top: 0;
-  left: 65%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  background-color: chocolate;
-  z-index: 99;
-  cursor: pointer;
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 $width: 200px;
 
@@ -156,4 +140,24 @@ $width: 200px;
   top: 0;
   left: 0;
   z-index: 100;
+}
+
+.temp-btn {
+  position: absolute;
+  top: 0;
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: darkolivegreen;
+  cursor: pointer;
+  @include media-breakpoint-up(sm) {
+    background-color: darkblue;
+  }
+  @include media-breakpoint-up(md) {
+    background-color: brown;
+  }
+  @include media-breakpoint-up(xl) {
+    background-color: aquamarine;
+  }
 }

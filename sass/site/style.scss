@@ -10,27 +10,24 @@
 }
 
 body {
+  background-color: #ccc !important;
 }
 
 .dn {
-  display: none !important;
+  @extend .d-none;
 }
 
 
 .pos-rel {
-  position: relative;
+  @extend .position-relative;
 }
 
 .pos-abs {
-  position: absolute;
+  @extend .position-absolute;
 }
 
 .pos-fix {
-  position: fixed;
-}
-
-.flex-column {
-  flex-direction: column;
+  @extend .position-fixed;
 }
 
 .cursor-pointer {
