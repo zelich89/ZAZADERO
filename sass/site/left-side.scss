@@ -1,8 +1,8 @@
 .sect-1 {
   position: absolute;
-  @include media-breakpoint-up(xl) {
+/*  @include media-breakpoint-up(xl) {
     position: relative;
-  }
+  }*/
   //opacity: 0;
   z-index: 2;
   max-width: 400px;
