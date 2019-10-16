@@ -123,6 +123,9 @@
     left: 1px;
     cursor: pointer;
   }
+  &.active {
+    background-color: #fc3d39;
+  }
 }
 
 .burger {
