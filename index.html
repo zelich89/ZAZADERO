@@ -86,511 +86,609 @@
 </head>
 <body>
 
-<div class="hole d-flex">
-    <div class="d-none try-box"></div>
-    <div class="sect sect-1 js-sect-1 d-flex flex-column" >
+<div class="box">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 p-0 sidebar js-sect-1">
 
-        <div class="burger pos-abs <!--padding-menu--> js-switch">
-            <a href="#" class="link-text-dark text-light">
-                <svg>
-                    <use xlink:href="#burger"></use>
-                </svg>
-            </a>
-        </div>
-
-        <div class="close pos-abs js-close js-switch">
-            <a href="#" class="link-text-dark text-light">
-                <svg>
-                    <use xlink:href="#icon-close"></use>
-                </svg>
-            </a>
-        </div>
-
-        <div class="logo-block bg-dark padding-menu pt-80 pr-10 pb-30">
-            <a href="#" class=""><img src="/images/logo.png" alt=""></a>
-        </div>
-
-
-
-        <div class="menu bg-black h3 x-center flex-column d-md-block cursor-pointer">
-            <a href="#" class="menu-item y-center padding-menu" >
-                <svg class="icons text-white">
-                    <use xlink:href="#icon-edit"></use>
-                </svg>
-                <span class="content">MADE</span>
-            </a>
-            <a href="#" class="menu-item y-center padding-menu" >
-                <svg class="icons text-white">
-                    <use xlink:href="#icon-read"></use>
-                </svg>
-                <span class="content">READ</span>
-            </a>
-            <a href="#" class="menu-item y-center padding-menu" >
-                <svg class="icons text-white">
-                    <use xlink:href="#icon-code"></use>
-                </svg>
-                <span class="content">PROJECTS</span>
-            </a>
-            <a href="#" class="menu-item y-center padding-menu" >
-                <svg class="icons text-white">
-                    <use xlink:href="#icon-message"></use>
-                </svg>
-                <span class="content">CONTACTS</span>
-            </a>
-        </div>
-
-
-
-        <div class="news bg-dark xy-center flex-grow-1 text-center text-white py-90 py-lg-40 ">
-            <div class="icons px-40 x-center ">
-                <a href="#" class="link-text-white">
-                    <svg>
-                        <use xlink:href="#icon-blog"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="content">
-                <div class="h3 pb-35">NEW IN BLOG</div>
-                <div id="carouselExampleCaptions" class="carousel slide row justify-content-around flex-wrap simple-text" data-ride="carousel">
-                    <div class="carousel-inner col-10 text-center">
-                        <div class="carousel-item active">
-                            <div class="carousel-text">
-                                <p class="text-size-1 text-left mb-20 mb-xl-50">The old set was updated and we've added some fresh effects with various transitions.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-text">
-                                <p class="text-size-1 mb-20 text-left mb-xl-50 ">The old-2 set was updated and we've added some fresh effects with various transitionss.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-text">
-                                <p class="text-size-1 mb-20 text-left mb-xl-50">The old-3 set was updated and we've added some fresh effects with various transitions.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-indicators dots w-100 position-static">
-                        <div data-target="#carouselExampleCaptions" data-slide-to="0" class="dot active mx-5"></div>
-                        <div data-target="#carouselExampleCaptions" data-slide-to="1" class="dot mx-5"></div>
-                        <div data-target="#carouselExampleCaptions" data-slide-to="2" class="dot mx-5"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="media bg-danger xy-center <!--py-200 p-xl-40-->">
-            <div class="icons px-40 x-center ">
-                <a href="#" class="link-text-white">
-                    <svg>
-                        <use xlink:href="#icon-media"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="content y-center flex-column text-center pt-40 pb-60 pl-20 pr-10 py-5">
-                <div class="media-name h3 text-white pb-25">PROCESS</div>
-                <div class="media-photo pb-15"><img src="/images/pfoto_process_left.png" alt=""></div>
-                <div class="media-desc simple-text text-white font-weight-light">The old set was updated and we've added some fresh effects with various transitions.</div>
-            </div>
-        </div>
-
-        <div class="view bg-dark y-center flex-column">
-            <div class="icons px-40 py-115 x-center ">
-                <a href="#" class="link-text-white">
-                    <svg>
-                        <use xlink:href="#icon-view"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="content y-center flex-column pt-25">
-                <div class="views-name h3 text-white pb-25">VIEW SETTINGS</div>
-                <div class="view-hole d-flex flex-wrap bg-light mb-15">
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item active"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item"></div>
-                    <div class="view-item"></div>
-                </div>
-                <div class="views-desc simple-text text-white font-weight-light pb-20">Select grid type 3x4</div>
-            </div>
-        </div>
-
-        <div class="soc-footer bg-black xy-center pos-rel h-240 p-20">
-            <div class="soc-content d-flex flex-column <!--flex-lg-row-->">
-                <div class="soc-icon mx-lg-10 my-15">
-                    <a href="#" class="link-text-white">
+                <div class="burger pos-abs <!--padding-menu--> js-switch">
+                    <a href="#" class="link-text-dark text-light">
                         <svg>
-                            <use xlink:href="#icon-pinterest"></use>
+                            <use xlink:href="#burger"></use>
                         </svg>
                     </a>
                 </div>
-                <div class="soc-icon mx-lg-10 my-15">
-                    <a href="#" class="link-text-white">
-                        <svg>
-                            <use xlink:href="#icon-twitter"></use>
+
+                <div class="logo-block bg-dark py-4">
+                    <div class="left-indent pt-20">
+                        <img class="img-fluid" src="/images/logo.png" alt="">
+                    </div>
+
+                </div>
+                <div class="menu bg-black text-white h3 p-4">
+                    <div class="item left-indent" >
+                        <svg class="icons text-white">
+                            <use xlink:href="#icon-edit"></use>
                         </svg>
-                    </a>
-                </div>
-                <div class="soc-icon mx-lg-10 my-15">
-                    <a href="#" class="link-text-white">
-                        <svg>
-                            <use xlink:href="#icon-facebook"></use>
+                        <div class="text-item">MADE</div>
+                    </div>
+                    <div class="item left-indent">
+                        <svg class="icons text-white">
+                            <use xlink:href="#icon-read"></use>
                         </svg>
-                    </a>
+                        <div class="text-item">READ</div>
+                    </div>
+                    <div class="item left-indent">
+                        <svg class="icons text-white">
+                            <use xlink:href="#icon-code"></use>
+                        </svg>
+                        <div class="text-item">PROJECTS</div>
+                    </div>
+                    <div class="item left-indent">
+                        <svg class="icons text-white">
+                            <use xlink:href="#icon-message"></use>
+                        </svg>
+                        <div class="text-item">CONTACTS</div>
+                    </div>
                 </div>
-            </div>
-            <div class="soc-text pos-abs simple-text">The old set was updated and  2024</div>
-        </div>
-    </div>
 
+                <div class="news bg-dark xy-center flex-grow-1 text-center text-white py-90 py-lg-40 ">
+                    <div class="d-none icons px-40 x-center ">
+                        <a href="#" class="link-text-white">
+                            <svg>
+                                <use xlink:href="#icon-blog"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="h3 pb-35">NEW IN BLOG</div>
+                        <div id="carouselExampleCaptions" class="carousel slide row justify-content-around flex-wrap simple-text" data-ride="carousel">
+                            <div class="carousel-inner col-10 text-center">
+                                <div class="carousel-item active">
+                                    <div class="carousel-text">
+                                        <p class="text-size-1 text-left mb-20 mb-xl-50">The old set was updated and we've added some fresh effects with various transitions.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-text">
+                                        <p class="text-size-1 mb-20 text-left mb-xl-50 ">The old-2 set was updated and we've added some fresh effects with various transitionss.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-text">
+                                        <p class="text-size-1 mb-20 text-left mb-xl-50">The old-3 set was updated and we've added some fresh effects with various transitions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-indicators dots w-100 position-static">
+                                <div data-target="#carouselExampleCaptions" data-slide-to="0" class="dot active mx-5"></div>
+                                <div data-target="#carouselExampleCaptions" data-slide-to="1" class="dot mx-5"></div>
+                                <div data-target="#carouselExampleCaptions" data-slide-to="2" class="dot mx-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media bg-danger xy-center py-200 p-xl-40">
+                    <div class="d-none icons px-40 x-center ">
+                        <a href="#" class="link-text-white">
+                            <svg>
+                                <use xlink:href="#icon-media"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="content y-center flex-column text-center pt-40 pb-60 pl-20 pr-10 py-5">
+                        <div class="media-name h3 text-white pb-25">PROCESS</div>
+                        <div class="media-photo pb-15"><img src="/images/pfoto_process_left.png" alt=""></div>
+                        <div class="media-desc simple-text text-white font-weight-light">The old set was updated and we've added some fresh effects with various transitions.</div>
+                    </div>
+                </div>
+            </div>
 
-
-    <div class="sect sect-2 container-fluid <!--d-flex--> flex-column">
-        <div class="row flex-grow-1">
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/the-road-815297_960_720.jpg" alt="">
-                    <div class="img-title pos-abs h2" >-Doris Matthews</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
+            <div class="col-9 p-0">
+                <div class="sect sect-2 container-fluid <!--d-flex--> flex-column">
+                    <div class="row flex-grow-1">
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/the-road-815297_960_720.jpg" alt="">
+                                <div class="img-title pos-abs h2" >-Doris Matthews</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/tree-247122_960_720.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Raymond George</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/cave-1835825_960_720.jpg" alt="">
+                                <div class="img-title pos-abs h2" >George Garza</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/landscape-3780085__340.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Ronald Campbell</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white place-hover-">
+                                <img class="pics" src="images/3b831d9s-1920.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Olivia Alvarez</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/city_nyc_newyorkcity_urban_blackandwhite_bw_white_newyork-241526.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Scott Valdez</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/s8A7p86sMQ.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Steven Vargas</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/leaf_dew_raindrop-17637.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Zachary Hunt</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/cave-1835825_960_720.jpg" alt="">
+                                <div class="img-title pos-abs h2" ></div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/bgTiSQN-Fpk.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Doris Matthews</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/grabber_11.jpg" alt="">
+                                <div class="img-title pos-abs h2" >Raymond George</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 px-0   ">
+                            <div class="places-img pos-rel text-white">
+                                <img class="pics" src="/images/nastol.com.ua-119170.jpg" alt="">
+                                <div class="img-title pos-abs h2" >George Garza</div>
+                                <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
+                                    <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
+                                    <div class="img-links-block d-flex justify-content-between px-20">
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-like"></use>
+                                                </svg>
+                                            </a>
+                                            <div class="pl-5">Like</div>
+                                        </div>
+                                        <div class="follow xy-center">
+                                            <a href="#" class="y-center">
+                                                <svg>
+                                                    <use xlink:href="#icon-share"></use>
+                                                </svg>
+                                                <div class="pl-5">Share</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer row bg-dark justify-content-between">
+                        <div class="col-12 col-xl-4 ml-auto px-0">
+                            <div class="sect">
+                                <a class="show-more d-block" href="#">
+                                    <div class=" bg-danger xy-center h-240 px-40">
+                                        <div class="work h2 uppercase bold px-20 py-10">SHOW more work</div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/tree-247122_960_720.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Raymond George</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/cave-1835825_960_720.jpg" alt="">
-                    <div class="img-title pos-abs h2" >George Garza</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/landscape-3780085__340.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Ronald Campbell</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white place-hover-">
-                    <img class="pics" src="images/3b831d9s-1920.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Olivia Alvarez</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/city_nyc_newyorkcity_urban_blackandwhite_bw_white_newyork-241526.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Scott Valdez</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/s8A7p86sMQ.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Steven Vargas</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/leaf_dew_raindrop-17637.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Zachary Hunt</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/cave-1835825_960_720.jpg" alt="">
-                    <div class="img-title pos-abs h2" ></div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/bgTiSQN-Fpk.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Doris Matthews</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/grabber_11.jpg" alt="">
-                    <div class="img-title pos-abs h2" >Raymond George</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 px-0   ">
-                <div class="places-img pos-rel text-white">
-                    <img class="pics" src="/images/nastol.com.ua-119170.jpg" alt="">
-                    <div class="img-title pos-abs h2" >George Garza</div>
-                    <div class="img-border pos-abs px-5 px-md-10 px-xl-45 pb-225">
-                        <div class="img-content text-center simple-text pt-130 pt-md-140 pt-xl-160 pb-25">The old set was updated and we've added some fresh effects with various transitions. </div>
-                        <div class="img-links-block d-flex justify-content-between px-20">
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-like"></use>
-                                    </svg>
-                                </a>
-                                <div class="pl-5">Like</div>
-                            </div>
-                            <div class="follow xy-center">
-                                <a href="#" class="y-center">
-                                    <svg>
-                                        <use xlink:href="#icon-share"></use>
-                                    </svg>
-                                    <div class="pl-5">Share</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer row bg-dark justify-content-between">
-            <div class="col-12 col-xl-4 ml-auto px-0">
-                <div class="sect">
-                    <a class="show-more d-block" href="#">
-                        <div class=" bg-danger xy-center h-240 px-40">
-                            <div class="work h2 uppercase bold px-20 py-10">SHOW more work</div>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--<div class="sect sect-1 js-sect-1 d-flex flex-column" >
+
+    <div class="burger pos-abs &lt;!&ndash;padding-menu&ndash;&gt; js-switch">
+        <a href="#" class="link-text-dark text-light">
+            <svg>
+                <use xlink:href="#burger"></use>
+            </svg>
+        </a>
+    </div>
+
+    <div class="close pos-abs js-close js-switch">
+        <a href="#" class="link-text-dark text-light">
+            <svg>
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </a>
+    </div>
+
+    <div class="logo-block bg-dark padding-menu pt-80 pr-10 pb-30">
+        <a href="#" class=""><img src="/images/logo.png" alt=""></a>
+    </div>
+
+
+
+    <div class="menu bg-black h3 x-center flex-column d-md-block cursor-pointer">
+        <a href="#" class="menu-item y-center padding-menu" >
+            <svg class="icons text-white">
+                <use xlink:href="#icon-edit"></use>
+            </svg>
+            <span class="content">MADE</span>
+        </a>
+        <a href="#" class="menu-item y-center padding-menu" >
+            <svg class="icons text-white">
+                <use xlink:href="#icon-read"></use>
+            </svg>
+            <span class="content">READ</span>
+        </a>
+        <a href="#" class="menu-item y-center padding-menu" >
+            <svg class="icons text-white">
+                <use xlink:href="#icon-code"></use>
+            </svg>
+            <span class="content">PROJECTS</span>
+        </a>
+        <a href="#" class="menu-item y-center padding-menu" >
+            <svg class="icons text-white">
+                <use xlink:href="#icon-message"></use>
+            </svg>
+            <span class="content">CONTACTS</span>
+        </a>
+    </div>
+
+
+
+    <div class="news bg-dark xy-center flex-grow-1 text-center text-white py-90 py-lg-40 ">
+        <div class="icons px-40 x-center ">
+            <a href="#" class="link-text-white">
+                <svg>
+                    <use xlink:href="#icon-blog"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="content">
+            <div class="h3 pb-35">NEW IN BLOG</div>
+            <div id="carouselExampleCaptions" class="carousel slide row justify-content-around flex-wrap simple-text" data-ride="carousel">
+                <div class="carousel-inner col-10 text-center">
+                    <div class="carousel-item active">
+                        <div class="carousel-text">
+                            <p class="text-size-1 text-left mb-20 mb-xl-50">The old set was updated and we've added some fresh effects with various transitions.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text">
+                            <p class="text-size-1 mb-20 text-left mb-xl-50 ">The old-2 set was updated and we've added some fresh effects with various transitionss.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text">
+                            <p class="text-size-1 mb-20 text-left mb-xl-50">The old-3 set was updated and we've added some fresh effects with various transitions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators dots w-100 position-static">
+                    <div data-target="#carouselExampleCaptions" data-slide-to="0" class="dot active mx-5"></div>
+                    <div data-target="#carouselExampleCaptions" data-slide-to="1" class="dot mx-5"></div>
+                    <div data-target="#carouselExampleCaptions" data-slide-to="2" class="dot mx-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media bg-danger xy-center &lt;!&ndash;py-200 p-xl-40&ndash;&gt;">
+        <div class="icons px-40 x-center ">
+            <a href="#" class="link-text-white">
+                <svg>
+                    <use xlink:href="#icon-media"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="content y-center flex-column text-center pt-40 pb-60 pl-20 pr-10 py-5">
+            <div class="media-name h3 text-white pb-25">PROCESS</div>
+            <div class="media-photo pb-15"><img src="/images/pfoto_process_left.png" alt=""></div>
+            <div class="media-desc simple-text text-white font-weight-light">The old set was updated and we've added some fresh effects with various transitions.</div>
+        </div>
+    </div>
+
+    <div class="view bg-dark y-center flex-column">
+        <div class="icons px-40 py-115 x-center ">
+            <a href="#" class="link-text-white">
+                <svg>
+                    <use xlink:href="#icon-view"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="content y-center flex-column pt-25">
+            <div class="views-name h3 text-white pb-25">VIEW SETTINGS</div>
+            <div class="view-hole d-flex flex-wrap bg-light mb-15">
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item"></div>
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item"></div>
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item active"></div>
+                <div class="view-item"></div>
+                <div class="view-item"></div>
+                <div class="view-item"></div>
+                <div class="view-item"></div>
+                <div class="view-item"></div>
+            </div>
+            <div class="views-desc simple-text text-white font-weight-light pb-20">Select grid type 3x4</div>
+        </div>
+    </div>
+
+    <div class="soc-footer bg-black xy-center pos-rel h-240 p-20">
+        <div class="soc-content d-flex flex-column &lt;!&ndash;flex-lg-row&ndash;&gt;">
+            <div class="soc-icon mx-lg-10 my-15">
+                <a href="#" class="link-text-white">
+                    <svg>
+                        <use xlink:href="#icon-pinterest"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="soc-icon mx-lg-10 my-15">
+                <a href="#" class="link-text-white">
+                    <svg>
+                        <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="soc-icon mx-lg-10 my-15">
+                <a href="#" class="link-text-white">
+                    <svg>
+                        <use xlink:href="#icon-facebook"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="soc-text pos-abs simple-text">The old set was updated and  2024</div>
+    </div>
+</div>-->
+
 
 <!--///////////////////-->
 <div class="main-nav main-nav-open js-main-nav px-100">
