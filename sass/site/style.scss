@@ -2,7 +2,6 @@
   height: 240px;
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 * {
   margin: 0;
   padding: 0;
@@ -76,18 +75,6 @@
   z-index: 1;
 }
 
-.img-border {
-  top: 30px;
-  left: 30px;
-  bottom: 30px;
-  right: 30px;
-  border: 1px solid white;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity .5s ease, transform .5s ease;
-  transform: scale(0.5);
-}
-
 .places-img {
   height: 100%;
   & .pics {
@@ -128,14 +115,3 @@
   }
 }
 
-.burger {
-  //top: 20px;
-  //left: 0;
-  cursor: pointer;
-}
-
-.close {
-  top: 20px;
-  right: 8%;
-  cursor: pointer;
-}
