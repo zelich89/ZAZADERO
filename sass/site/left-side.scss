@@ -93,6 +93,11 @@
     .soc-footer {
       .soc-content {
         flex-direction: row;
+        .soc-icon {
+          &:first-child {
+            order: 3;
+          }
+        }
       }
       .soc-text {
         display: block;
