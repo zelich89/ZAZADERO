@@ -1,107 +1,125 @@
 .burger {
-  top: 20px;
   cursor: pointer;
-  display: block;
 }
 
 .close {
-  top: 20px;
-  right: 8%;
   cursor: pointer;
+}
+
+.sidebar {
+  max-width: 120px;
+  min-width: 120px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.logo-block {
+  & .burger {
+    padding-bottom: 20px;
+  }
+  & .close {
+    padding-bottom: 20px;
+    display: none;
+  }
+}
+
+.menu-item {
+  padding: 20px 33px;
+  .icons {
+    transition: opacity .2s ease;
+    opacity: 1;
+  }
+  .text-item {
+    display: none;
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+}
+
+.icons {
+  opacity: 1;
+}
+
+.content {
   display: none;
 }
 
+.news {
+  height: 247px;
+  & .icons {
+    display: none;
+  }
+}
 
-.menu {
-  .menu-item {
-    display: flex;
-    align-items: center;
-    .icons {
-      margin-right: 20px;
-    }
+.z-media {
+  height: 422px;
+  & .icons {
+    display: none;
+  }
+}
+
+.soc-footer {
+  .soc-content {
+    flex-direction: column;
+  }
+
+  .soc-text {
+    display: none;
   }
 }
 
 
+.sidebar.active {
+  min-width: 320px;
+  max-width: 320px;
 
-.sideber {
-  width: 120px;
-  transition: width 1s ease;
-  .left-ident {
-    padding-left: 25px;
+  .logo {
+    padding: 20px 60px 20px 20px;
   }
+
   .menu-item {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    .text-item {
+    .icon {
       opacity: 0;
     }
+
+    .text-item {
+      display: block;
+    }
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .close {
+    margin-left: 200px;
+    display: block;
   }
 
   .icons {
-    position: absolute;
-    opacity: 1;
+    opacity: 0;
   }
+
   .content {
-    display: none;
+    display: block;
   }
-  .news {
-    height: 247px;
-  }
-  .z-media {
-    height: 422px;
-  }
+
   .soc-footer {
     .soc-content {
-      flex-direction: column;
-    }
-    .soc-text {
-      display: none;
-    }
-  }
+      flex-direction: row;
 
-
-
-  &.active {
-    width: 310px;
-    .left-ident {
-      padding-left: 115px;
-    }
-    .menu-item {
-      position: relative;
-      display: block;
-      .text-item {
-        opacity: 1;
-      }
-    }
-
-    .burger {
-      display: none;
-    }
-    .close {
-      display: block;
-    }
-
-    .icons {
-       opacity: 0;
-     }
-    .content {
-      display: block;
-    }
-
-    .soc-footer {
-      .soc-content {
-        flex-direction: row;
-        .soc-icon {
-          &:first-child {
-            order: 3;
-          }
+      .soc-icon {
+        &:first-child {
+          order: 3;
         }
       }
-      .soc-text {
-        display: block;
-      }
+    }
+
+    .soc-text {
+      display: block;
     }
   }
 }
