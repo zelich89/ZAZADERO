@@ -84,13 +84,13 @@
         </symbol>
     </svg>
 </head>
-<body>
+<body class="js-nice-scroll">
 
 <div class="full">
     <div class="container-fluid">
         <div class="row flex-nowrap">
-            <div class="zcol-3 sidebar top-0 position-sticky p-0 active js-sect-1">
-                <div class="btn bg-warning pos-fix cursor-pointer text-warning z-i-5 js-switch">O</div>
+            <div class="zcol-3 sidebar top-0 position-sticky p-0 active js-sect-1 js-nice-scroll">
+<!--                <div class="btn bg-warning pos-fix cursor-pointer text-warning z-i-5 js-switch">O</div>-->
 
 
                 <div class="logo-block bg-dark xy-center flex-column p-20">
@@ -586,7 +586,12 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
 <script src="js/left-bar.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
-
+<script>
+    $(".js-nice-scroll").niceScroll({
+        cursorborder:"1px solid #8e8e93"
+    });
+</script>
 </body>
