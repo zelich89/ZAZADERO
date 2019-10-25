@@ -59,7 +59,7 @@
     left: 0;
     background-color: rgba(252, 61, 57, 1);
     opacity: 0;
-    transition: opacity .2s ease;
+    transition: opacity .5s ease;
   }
   &:hover:after {
     opacity: 0.5;

@@ -40,11 +40,17 @@
 }
 
 .soc-icon {
-  svg {
-    width: $soc-icon-size;
-    height: $soc-icon-size;
-  }
-}
+   svg {
+     width: $soc-icon-size;
+     height: $soc-icon-size;
+   }
+ }
 
 ////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////
+.soc-item {
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}

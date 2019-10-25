@@ -50,14 +50,14 @@
 .news {
   height: 247px;
   & .icons {
-    display: none;
+    //display: none;
   }
 }
 
 .z-media {
   height: 422px;
   & .icons {
-    display: none;
+    //display: none;
   }
 }
 
@@ -97,6 +97,17 @@
   .close {
     margin-left: 200px;
     display: block;
+  }
+  .news {
+    & .icons {
+      display: none;
+    }
+  }
+
+  .z-media {
+    & .icons {
+      display: none;
+    }
   }
 
   .icons {
